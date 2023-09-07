@@ -1,0 +1,36 @@
+# Project Name :
+ AiConnect
+
+## Overview
+Python app that exposes an API for calling OpenAI API
+
+## Prerequisites
+
+- Python 3.6+
+- Flask
+- `openai` library (install using `pip install openai`)
+- OpenAI API key (replace `OPENAI_API_KEY` with your key)
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-project.git
+
+2. cd AIConnect
+
+3. Install app dependencies
+    pip install -r requirements.txt
+
+4. Setup your .env file
+    OPENAIKEY=YOUR_API_KEY
+    DEBUG=YOUR_VALUE
+
+5. Run the App
+    python app.py
+
+### Test the Endpoint 
+- `POST /api/ask_openai`
+
+- Send a POST request to the /api/ask_openai endpoint with a JSON payload containing the input_text field.

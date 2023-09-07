@@ -1,0 +1,28 @@
+# Python-specific files and directories
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.venv3/
+.venv32/
+env32/
+__env__/
+venv3/
+.venv37/
+.venv38/
+.venv39/
+
+# Compiled Python files and packages
+*.pyc
+*.pyo
+__pycache__/
+
+# Python cache files
+*.cache
+
+#  .env file
+.env
