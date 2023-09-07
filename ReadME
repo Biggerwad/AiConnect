@@ -16,7 +16,7 @@ Python app that exposes an API for calling OpenAI API
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone "project-url" 
 
 2. cd AIConnect
 
